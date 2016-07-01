@@ -1,0 +1,46 @@
+<div class="m-my">
+  <header>
+    <div>
+    	<img src="/shell/images/img_user.png">
+    </div>
+  </header>
+
+  <section>
+  	<ul>
+   	  <li>
+   	  	<i class="yo-ico">&#xe630;</i><i>钱包</i><i>0 > </i>
+   	  </li>
+   	</ul>
+   	<ul>
+      <li>       
+        <i class="yo-ico">&#xe630;</i><i>在架书籍</i><i>0 > </i>    
+      </li>
+      <li>       
+        <i class="yo-ico">&#xe630;</i><i>购入书籍</i><i>0 > </i>   
+      </li>
+      <li>
+   	  	<i class="yo-ico">&#xe630;</i><i><i>售出书籍</i><i>0 > </i>
+   	  </li>
+      <li>       
+       <i class="yo-ico">&#xe630;</i><i>求购书籍</i><i>0 > </i>    
+      </li>
+      <li>       
+       <i class="yo-ico">&#xe630;</i><i>图书漂流</i><i>0 > </i>   
+      </li>
+    </ul>
+    <ul>
+      <li>
+   	  	<i class="yo-ico">&#xe630;</i><i>分享</i><i>0 > </i>
+   	  </li>
+    </ul>
+    <ul>
+      <li>       
+        <i class="yo-ico">&#xe630;</i><i>设置</i><i>0 > </i>    
+      </li>
+     
+    </ul>
+
+  </section>
+
+</div>
+

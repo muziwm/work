@@ -1,0 +1,22 @@
+<div class="m-news">
+  <header>
+    消息
+  </header>
+
+  <section>
+  	<ul>
+   	  <li>
+   	  	<img src="/shell/images/img_logo.png">
+   	  </li>
+      <li>       
+          贝壳书社      
+      </li>
+      <li>       
+           官方     
+      </li>
+    </ul>
+
+  </section>
+
+</div>
+

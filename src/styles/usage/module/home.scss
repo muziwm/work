@@ -1,0 +1,229 @@
+
+//@import "../../lib/widget/yo-dialog";
+
+
+.m-index {
+  .l-container {
+    .m-home {
+    background:#F0F0F0;
+      @include flexbox();
+      @include flex-direction(column);
+      height: 100%;
+      > * {
+        width: 100%;
+      }
+      
+      header { 
+        background: #FED847;  
+        height: .44rem;
+        ul {
+          @include flexbox();
+          height: 100%;
+          li {
+            height: 100%;
+            &:not(:nth-child(2)) {
+              width: .64rem;
+              text-align: center;
+              line-height: .44rem;
+              color: #fff;
+              font-size: .3rem;
+            }
+            &:nth-child(2) {
+              @include flex(1);
+              width: 100%;
+              @include flexbox();
+              @include justify-content(center);
+              @include align-items(center);
+              input{
+                   width: 80%;
+                    height: .22rem;
+              }
+            }
+          }
+        }
+      }
+      
+      .reFresh{
+        width: 100%;
+        height:.4rem;
+        overflow:hidden;
+        text-align: center;
+        line-height: .4rem;
+        margin-top: -.4rem;
+        
+        img{
+             display: inline-block;
+            transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            transition: transform 150ms;
+            -webkit-transition: transform 150ms;
+            height: .15rem;
+            width: .15rem;
+        }
+
+      }
+      .reLoad{
+           width: 100%;
+            height:.4rem;
+            overflow:hidden;
+            text-align: center;
+            line-height: .4rem;
+            margin-bottom: -.4rem;
+             img{
+             display: inline-block;           
+            height: .15rem;
+            width: .15rem;
+        }
+      }
+      
+      .scroll-container{
+           width: 100%;
+           background: #f0f0f0;
+//          @include flex(1);
+          
+          .swiper-container {
+            width: 100%;
+//          height: 1.3rem;          
+            overflow: hidden;
+             background: #f0f;
+
+             .swiper-slide {
+                width:100%;
+//              height:100%;
+                img{
+                  display:block;
+                   width:100%;
+//                height:100%;
+                }
+
+             }
+          }
+          
+         
+         
+        
+            .imgNews{
+                width: 100%;
+//             height: 2.1rem;
+               background: #fff;
+               
+               .imgNewsWarp{
+                   
+                   .imgNewsList{
+                      width:80%;
+                      margin:.1rem auto;
+                       border: 1px solid #EAEAEA;
+                         overflow: hidden;
+                       
+                       p{
+                           width: 100%;
+                           height: .3rem;
+                           background: #fff;
+                           
+                           text-indent: .22rem;
+                           line-height: .3rem;
+
+                           &:nth-child{
+                              margin-top:.05rem;
+                           }
+                       }
+                       div.h-imglist-container{
+                     
+                           background: #fff;
+                           
+                            div{
+                                 margin-top:.05rem;
+                                width: 20rem;
+                                 overflow: hidden;
+
+                             ul{
+                                  width:4rem;
+                                 @include flexbox();
+                               
+                                 border-top:.01rem solid #ececec;    
+                                 border-bottom:.01rem solid #ececec;     
+                                li{
+                                   @include box-sizing(border-box);
+                             
+                                  margin-left:.1rem;
+                                   @include flex(1);
+                                    text-align: center;
+                                   
+
+                                  img{
+                                    width:100%;
+                                    height:100%;
+                                  }
+                                }
+                                    
+                             } 
+                               
+                           }
+                       }
+                   }
+                   
+                   .imgNewsList1{
+                       margin-top: .1rem;
+                        margin-bottom: .1rem;
+                       div{
+                           display: block;
+                           width: 100%;
+                           @include box-sizing(border-box);
+                           
+                           div{
+                               @include flexbox();
+                               border-top:.01rem solid #ececec;
+                               div{
+                                   overflow: hidden;
+                                   border-right:.01rem solid #ececec;
+                                   &:last-child{
+                                       border-right:0;
+                                   }
+                                   img{
+                                       width: 100%;
+                                       height: 100%;
+                                       
+                                   }
+                               }
+                           }
+                       }
+                   }
+                   
+                   
+                   
+               }
+            }
+        
+         
+      }
+      
+    }
+  }
+}
+
+
+
+///////////////////////////////
+
+@keyframes run {
+    from{transform: 0;}
+    to{transform: translateY(-1rem);}
+}
+
+@-webkit-keyframes run {
+    from{-webkit-transform: -webkit-translateY(-1rem);}
+    to{-webkit-transform: -webkit-translateY(-1rem);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

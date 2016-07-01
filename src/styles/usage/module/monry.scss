@@ -1,0 +1,32 @@
+  
+.m-index {
+  .l-container {
+
+ .m-news{
+ 	background:#F0F0F0;
+      @include flexbox();
+      @include flex-direction(column);
+      height: 100%;
+      > * {
+        width: 100%;
+      }
+ 	header{
+ 		color:#333;
+ 		 background: #FED847;
+        height: .44rem;
+        text-align:center;
+        line-height:.44rem;
+        font-size:.24rem;
+        font-weight:900;
+       
+ 	}
+
+ 	
+ }
+}
+}
+
+
+ 
+          
+           

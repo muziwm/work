@@ -1,0 +1,13 @@
+
+<div class="m-index">
+  <div class="l-container"></div>
+  <footer>
+    <ul>
+      <li class="active" action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe601;</i><b>购书</b></li>
+      <li action-type="switch.tabs" data-tag="search"><i class="yo-ico">&#xe69e;</i><b>漂流</b></li>
+      <li><i class="yo-ico">&#xe61a;</i></li>
+      <li action-type="switch.tabs" data-tag="money"><i class="yo-ico">&#xe643;</i><b>消息</b></li>
+      <li action-type="switch.tabs" data-tag="my"><i class="yo-ico">&#xe667;</i><b>我的</b></li>
+    </ul>
+  </footer> 
+</div>

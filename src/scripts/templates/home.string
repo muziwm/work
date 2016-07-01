@@ -1,0 +1,99 @@
+<div class="m-home">
+  <header>
+    <ul>
+      <li class="yo-ico">&#xe630;</li>
+      <li>       
+          <input type="type"/>         
+      </li>
+      <li class="yo-ico">&#x343b;</li>
+    </ul>
+  </header>
+  
+  
+      
+        <section spa-widget="scroll" class="scroll-container">   
+        <div> 
+
+            <div class="reFresh head"><img src="/gold/images/arrow.png">下拉刷新</div>   
+            <div class="swiper-container"  id="home-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/shell/images/img-ban1.png"></div>
+                    <div class="swiper-slide"><img src="/shell/images/img-ban2.png"></div>
+                    <div class="swiper-slide"><img src="/shell/images/img-ban3.png"></div>
+                </div>              
+                                            
+            </div>
+             
+               
+            
+           
+            
+            <div class="imgNews">
+                <div class="imgNewsWarp">
+                    <div class="imgNewsList">
+                        <p>1157339678</p>
+                        <p>共发布10本图书</p>
+
+                        <div  class="h-imglist-container"  id="h-container" spa-widget="scroll" data-scroll-id="himglistscroll"> 
+                          <div>
+                           <ul>
+                                <li><img src="/shell/images/img-main-1.png"></li>
+                                <li><img src="/shell/images/img-main-1.png"></li>
+                                <li><img src="/shell/images/img-main-1.png"></li>
+                                <li><img src="/shell/images/img-main-1.png"></li>
+                                <li><img src="/shell/images/img-main-1.png"></li>
+                                <li><img src="/shell/images/img-main-1.png"></li>
+                           </ul>   
+                          </div>
+                        </div>
+                    </div>
+
+                     <div class="imgNewsList">
+                        <p>1154444678</p>
+                        <p>共发布10本图书</p>
+
+                        <div  class="h-imglist-container"  id="h-container" spa-widget="scroll" data-scroll-id="h-imglistscroll"> 
+                          <div>
+                           <ul>
+                                <li><img src="/shell/images/img-main-1.png""></li>
+                                <li><img src="/shell/images/img-main-2.png""></li>
+                                <li><img src="/shell/images/img-main-3.png""></li>
+                                <li><img src="/shell/images/img-main-4.png""></li>
+                                <li><img src="/shell/images/img-main-1.png""></li>
+                                <li><img src="/shell/images/img-main-1.png""></li>
+                           </ul>   
+                          </div>
+                        </div>
+                    </div>
+
+                     <div class="imgNewsList">
+                        <p>155222522</p>
+                        <p>共发布20本图书</p>
+
+                        <div  class="h-imglist-container"  id="h-container" spa-widget="scroll" data-scroll-id="h-imglistscroll"> 
+                          <div>
+                           <ul>
+                                <li><img src="/shell/images/img-main-1.png""></li>
+                                <li><img src="/shell/images/img-main-1.png""></li>
+                                <li><img src="/shell/images/img-main-1.png""></li>
+                                <li><img src="/shell/images/img-main-1.png""></li>
+                                <li><img src="/shell/images/img-main-1.png""></li>
+                                <li><img src="/shell/images/img-main-1.png""></li>
+                           </ul>   
+                          </div>
+                        </div>
+                    </div>
+
+
+                    
+                </div> 
+            </div> 
+            
+              <div class="reLoad foot"><img src="/gold/images/arrow.png">上拉加载</div> 
+              
+              
+         </div>            
+        </section>
+        
+      
+</div>

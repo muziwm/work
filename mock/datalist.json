@@ -1,0 +1,32 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "id": 1,
+      
+      "title": "11223344",
+      "details" : "发布了10本图书",
+      "imgsrc": ["/shell/images/img-main-1.png","/shell/images/img-main-2.png","/shell/images/img-main-3.png"]
+    },
+    {
+      "id": 2,
+       "imgsrc": "/shell/images/img-main-1.png",
+      "title": "11223344",
+      "details" : "发布了10本图书"
+    },
+    {
+      "id": 3,
+       "imgsrc": "/shell/images/img-main-1.png",
+      "title": "11223344",
+      "details" : "发布了10本图书"
+    },
+    {
+      "id": 4,
+      "imgsrc": "/shell/images/img-main-1.png",
+      "title": "11223344",
+      "details" : "发布了10本图书"
+    }
+  ]
+}
